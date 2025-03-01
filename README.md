@@ -9,14 +9,14 @@ Gener8 is a desktop application with a special focus on ease-of-use and speed th
 Gener8 was built with *ease-of-use* as a core focus. To run this code, you must have Python >=3.9.0 installed.  
 Begin by cloning the repository:  
 `git clone https://github.com/Builciber/Gener8`  
-CD into the cloned respository:  
+CD into the cloned repository:  
 `cd Gener8`  
 Install the required packages:  
 `python3 -m pip install -r requirements.txt`  
 
 > As an extra thing to note, *Gener8App.py* contains the backend logic and *gener8.kv* contains the UI code. If there's UI logic that you can't find in *gener8.kv*, it can be found in *Gener8App.py*. If you're a dev wanting to contribute to this repo and you're in need of layers for testing, check out the *layers* folder for arts and an example of how to present your layer images along with their respective weights. The *layers ordering.txt* file specifies the order of layers selection for Gener8's use. You'll enter this ordering in the second text-input box on Gener8's home screen. **The generated output folder named *Gener8 App Output* which contains a GIF, the generated arts, rarity table and will contain the metadata folder when generated, will be written to the same folder that contains your layer images.**
 
-See requirements.txt for required packages and their versions. After neccessary installations, run:
+See requirements.txt for required packages and their versions. After necessary installations, run:
 `python3 Gener8App.py` to start the app.
 
 See the image below for app specific usage:  
